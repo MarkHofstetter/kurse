@@ -22,6 +22,7 @@ EXCEPTION
 END; -- Procedure
 /
 
+-- das hat der bernhard sehr schoen gemacht
 
 
 -- End of DDL Script for Procedure HR.UNIQUE_EXCEPTION
