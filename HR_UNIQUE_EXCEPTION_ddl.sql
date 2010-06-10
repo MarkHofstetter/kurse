@@ -1,6 +1,6 @@
 -- Start of DDL Script for Procedure HR.UNIQUE_EXCEPTION
 -- Generated 10-Jun-2010 13:36:06 from HR@ORCL
-
+-- comment added by MeidlJ
 CREATE OR REPLACE 
 PROCEDURE unique_exception
    ( p_first_name IN working_salary.first_name%TYPE,
