@@ -1,4 +1,5 @@
 CREATE OR REPLACE PROCEDURE fill_dep_emp
+-- comment
    IS
 
    TYPE emp_table_type IS TABLE OF emp_list
