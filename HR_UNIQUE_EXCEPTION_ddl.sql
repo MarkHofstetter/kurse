@@ -19,7 +19,7 @@ BEGIN
 
 EXCEPTION
     WHEN e_uk_violated THEN
-        dbms_output.put_line('Fehler '||SQLERRM||' '||SQLCODE);
+        dbms_output.put_line('Fehler; '||SQLERRM||' '||SQLCODE);
         err_log(SQLERRM, SQLCODE);
 END; -- Procedure
 /
